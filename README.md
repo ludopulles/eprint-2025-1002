@@ -13,6 +13,8 @@ By executing the command `git submodule init && git submodule update --remote`, 
 1. Code related to the "guess & verify" attack:
   - code to run "Guess+Verify" experiments and resulting data.
 
+**Note:** the first submodule, to which the link is not displayed correctly by GitHub, can be found on [GitLab](https://gitlab.com/fvirdia/cool-plus-cruel-equals-dual) commit [4535e1](https://gitlab.com/fvirdia/cool-plus-cruel-equals-dual/-/commit/4535e14201cb024dadb11d347e8611f073a32d56).
+
 # Dependencies
 
 The drop & solve attack requires a conda environment in which sage and flatter is installed, see `cool_and_cruel/README.md#Dependencies`.
