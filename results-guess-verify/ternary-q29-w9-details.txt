@@ -1,0 +1,58 @@
+COMMAND PROMPT:
+mailresult node0 python attack.py -w4 -r5 -o results/ternary-274887787.csv |& tee results/ternary-274887787-details.txt
+
+Computing the best attack parameters...
+Saved profile to: saved_profiles/prof_b53_n1024.npy
+         rop: ≈2^56.9
+         red: ≈2^56.0
+         svp: ≈2^55.8
+           β:       53
+           η:        2
+           ζ:      800
+         |S|: ≈2^29.3
+          h_:        3
+  prob_babai:    0.880
+           d:      499
+        prob:    0.004
+           ↻:     1233
+         tag:   hybrid
+          xi:   15.918
+         tau:        3
+           m:      274
+Attack parameters: {'beta': 53, 'eta_svp': 2, 'm': 274, 'k': 800, 'h_': 3}
+E[ #iterations ] = 236.21
+99% success: 1086 iterations.
+
+LWE instance is generated using seed 0.
+Iteration #147: contains correct guess: [-1  1  1] at [288 290 719] ~ 74%
+ Babai-NP of correct guess has norm: 36.679
+ FPLLL call took: 21.63 seconds.
+Run 0: Success=True, Time=34150.19s, Iter=291, Error=False
+LWE instance is generated using seed 1.
+Iteration #559: contains correct guess: [ 1 -1  1] at [ 61 253 506] ~ 21%
+ Babai-NP of correct guess has norm: 34.731
+ FPLLL call took: 30.22 seconds.
+Run 1: Success=True, Time=4832.75s, Iter=33, Error=False
+LWE instance is generated using seed 2.
+Iteration #62: contains correct guess: [-1 -1 -1] at [478 508 707] ~ 94%
+Iteration #63: contains correct guess: [ 1 -1 -1] at [167 273 465] ~ 51%
+ Babai-NP of correct guess has norm: 81.316
+ FPLLL call took: 24.66 seconds.
+ Babai-NP of correct guess has norm: 146.599
+ FPLLL call took: 27.78 seconds.
+Run 2: Success=True, Time=15358.52s, Iter=125, Error=False
+LWE instance is generated using seed 3.
+Iteration #95: contains correct guess: [ 1 -1 -1] at [212 435 785] ~ 60%
+ Babai-NP of correct guess has norm: 95.915
+ FPLLL call took: 30.68 seconds.
+Run 3: Success=True, Time=22290.46s, Iter=187, Error=False
+LWE instance is generated using seed 4.
+Iteration #28: contains correct guess: [ 1 -1 -1] at [273 364 461] ~ 72%
+ FPLLL call took: 30.62 seconds.
+Run 4: Success=True, Time=7571.10s, Iter=57, Error=False
+
+All runs completed. Results saved to results/ternary-274887787.csv
+
+real	1404m18.072s
+user	10437m39.819s
+sys	7m52.609s

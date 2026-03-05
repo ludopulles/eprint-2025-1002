@@ -1,0 +1,6 @@
+[submodule "cool-plus-cruel-equals-dual"]
+	path = cool-plus-cruel-equals-dual
+	url = https://gitlab.com/fvirdia/cool-plus-cruel-equals-dual.git/
+[submodule "GPUPrimalHybrid"]
+	path = GPUPrimalHybrid
+	url = https://github.com/ludopulles/GPUPrimalHybrid

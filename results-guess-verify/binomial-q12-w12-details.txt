@@ -1,0 +1,25 @@
+# Column 1, weight w=12, Yoda, 4 workers
+
+Estimated cost:
+         rop: ≈2^62.5
+         red: ≈2^61.7
+         svp: ≈2^61.3
+           β:       46
+           η:        2
+           ζ:      395
+         |S|: ≈2^29.3
+          h_:        3
+  prob_babai:    0.480
+           d:      190
+        prob: ≈2^-17.4
+           ↻: ≈2^19.6
+         tag:   hybrid
+          xi:    2.469
+         tau:        1
+           m:       72
+
+Attack parameters: {'beta': 46, 'eta_svp': 2, 'm': 72, 'k': 395, 'h_': 3}
+E[ #iterations ] = 7067.06
+99% success: 32543 iterations.
+
+avg wall time: 30.14330 h

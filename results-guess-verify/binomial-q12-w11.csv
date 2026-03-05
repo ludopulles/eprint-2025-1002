@@ -1,0 +1,7 @@
+run_id,n,q,w,secret_type,sigma,eta,success,iterations_used,time_elapsed,error
+0,256,3329,11,binomial,,2,True,1276,12922.909411430359,  3.6
+1,256,3329,11,binomial,,2,True,2504,25781.613269090652,  7.2
+2,256,3329,11,binomial,,2,False,8334,84406.62259459496,  23.4 Failed
+3,256,3329,11,binomial,,2,True,695,7155.924612760544,    2.0
+4,256,3329,11,binomial,,2,True,3327,33770.290875673294,  9.4
+5,256,3329,11,binomial,,2,True,2209,22607.064773082733,  6.3

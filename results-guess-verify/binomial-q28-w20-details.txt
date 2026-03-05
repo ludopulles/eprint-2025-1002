@@ -1,0 +1,25 @@
+# Column 2, weight w=20, Z, 8 workers(?)
+
+Estimated cost:
+         rop: ≈2^56.4
+         red: ≈2^56.3
+         svp: ≈2^53.1
+           β:       52
+           η:        2
+           ζ:      234
+         |S|: ≈2^27.0
+          h_:        3
+  prob_babai:    0.830
+           d:      471
+        prob:    0.002
+           ↻:     1878
+
+
+
+
+
+Attack parameters: {'beta': 52, 'eta_svp': 2, 'm': 192, 'k': 234, 'h_': 3}
+E[ #iterations ] = 339.79
+99% success: 1563 iterations.
+
+avg wall time: 2.8216 h
